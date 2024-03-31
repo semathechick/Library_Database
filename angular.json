@@ -30,7 +30,10 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css",
               "src/styles.scss"
+
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -102,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "529ce063-781d-4a71-87ae-cbcb17fa4eb8"
   }
 }
